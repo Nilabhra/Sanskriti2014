@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/onstageButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/onstage" />
+
+    <ImageButton
+        android:id="@+id/offstangeButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/offstage" />
+
+    <ImageButton
+        android:id="@+id/guestButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/guest" />
+
+</LinearLayout>
